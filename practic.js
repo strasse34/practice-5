@@ -85,3 +85,12 @@ names.map((name) => {
 names.map((name) => {
     return <h1> "hello" + {name} </h1>
 })
+
+// naw filter for example jafar:
+const names = ['Reza','jafar', 'Hasti', 'Jafar', 'jafar'];
+
+const names.filter((name) => {
+    return name !== 'jafar'
+})
+
+// Async + Await + Fetch
