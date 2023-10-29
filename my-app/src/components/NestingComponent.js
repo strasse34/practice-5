@@ -8,14 +8,29 @@ export class NestingComponent extends Component {
     
       this.state = {
          isLoaded: true,
-         isLoggedin: true,
+         isLoggedin: false,
       }
     }
+
+    handler = ()=> {
+        this.setState({
+            isLoggedin: this.state.isLoggedin === true ? false : true
+        })
+        console.log(this)
+    }
+    
+
+
     render() {
         return (
             <div>
                 <UserData isLoaded={this.state.isLoaded} />
-                <UserMessage isLoggedin={this.state.isLoggedin} />
+                <UserMessage 
+                isLoggedin={this.state.isLoggedin} 
+                handler={this.handler}
+                
+                
+                />
             </div>
         )
     }
