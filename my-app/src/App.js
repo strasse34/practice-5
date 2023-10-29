@@ -1,15 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-
-import StatefulGreeting from './components/StatefulGreeting';
+import NestingComponent from './components/NestingComponent';
 
 
 
 function App() {
   return (
     <div className="App">
-      
-      <StatefulGreeting />
+      <NestingComponent />
     </div>
   );
 }
