@@ -1,11 +1,12 @@
 import css from './App.css';
-import LifeCyclesCWU from './components/LifeCyclesCWU';
+import ControlledForm from './components/ControlledForm';
+
 
 
 function App() {
   return (
     <div className={css.App}>
-      <LifeCyclesCWU />
+      <ControlledForm />
     </div>
   );
 }
