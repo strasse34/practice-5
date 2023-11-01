@@ -1,16 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import NestingComponent from './components/NestingComponent';
-
-
+import css from './App.css';
+import RenderingLists from './components/RenderingLists';
 
 function App() {
   return (
-    <div className="App">
-      <NestingComponent />
+    <div className={css.App}>
+      <RenderingLists />
     </div>
   );
 }
-
 
 export default App;
