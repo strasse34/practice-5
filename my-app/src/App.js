@@ -1,5 +1,6 @@
 import css from './App.css';
-import ControledFormHooks from './components/ControledFormHooks';
+import UseEffect from './components/UseEffect';
+
 
 
 
@@ -7,7 +8,7 @@ import ControledFormHooks from './components/ControledFormHooks';
 function App() {
   return (
     <div className={css.App}>
-      <ControledFormHooks />
+      <UseEffect />
     </div>
   );
 }
