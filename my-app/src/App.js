@@ -1,5 +1,5 @@
-import css from './App.css';
-import UseEffect from './components/UseEffect';
+import './App.css';
+import HTTPRequests from './components/HTTPRequests';
 
 
 
@@ -7,8 +7,8 @@ import UseEffect from './components/UseEffect';
 
 function App() {
   return (
-    <div className={css.App}>
-      <UseEffect />
+    <div className='App'>
+      <HTTPRequests />
     </div>
   );
 }
