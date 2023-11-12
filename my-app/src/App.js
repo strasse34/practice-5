@@ -1,5 +1,6 @@
 import './App.css';
-import HTTPRequests from './components/HTTPRequests';
+import HTTPPosts from './components/HTTPPosts';
+
 
 
 
@@ -8,7 +9,7 @@ import HTTPRequests from './components/HTTPRequests';
 function App() {
   return (
     <div className='App'>
-      <HTTPRequests />
+      <HTTPPosts />
     </div>
   );
 }
