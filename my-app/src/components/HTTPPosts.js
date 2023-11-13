@@ -23,10 +23,6 @@ export class HTTPPosts extends Component {
                 post : response.data
             })
         })
-        
-
-        
-        
     }
 
     
